@@ -1,8 +1,32 @@
+@font-face {
+    font-family: "freeland";
+    src:url("@font-face/freeland.woff") format("woff"),
+        url("@font-face/freeland.woff2") format("woff2"),
+        url("@font-face/freeland.ttf") format("truetype");
+}
+
 body {
     margin: 0;
     padding: 0;
     font-family: Merriweather;
 }
+
+.back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    border: 1px solid #065613;
+    padding: 1rem;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+}
+.back-to-top:hover {
+    font-size: 1.25rem;
+}
+
+
 
 .header {
     display: flex;
@@ -13,9 +37,9 @@ body {
 }
 
 .header h1 {
-    font-family: "Qwitcher Grypen";
+    font-family: "freeland";
     color: #065613;
-    font-size: 10rem;
+    font-size: 9rem;
     margin: 0;
 }
 
@@ -69,7 +93,7 @@ body {
 }
 
 .meet-us h2 {
-    font-family: "Qwitcher Grypen";
+    font-family: "freeland";
     font-size: 7rem;
     color: #065613;
     margin-top: 0;
@@ -86,6 +110,7 @@ body {
     line-height: 1.5;
     width: 70%;
     margin: 0 auto;
+    padding-bottom: 3rem;
 }
 
 .top {
@@ -98,3 +123,110 @@ body {
     border: 1px solid #065613;
     border-radius: 5px;
 }
+
+.what-we-offer {
+    text-align: center;
+}
+
+.what-we-offer h2 {
+    font-family: "freeland";
+    font-size: 7rem;
+    color: #065613;
+    margin-top: 0;
+    padding-top: 6rem;
+}
+
+.what-we-offer h3 {
+    font-family: "freeland";
+    font-size: 3rem;
+    padding-top: 3rem;
+    margin-bottom: 1rem;
+    color: #065613;
+}
+
+.what-we-offer p {
+    line-height: 1.5;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.price-list {
+    width: 35%;
+    margin: 0 auto;
+    font-size: 1.25rem;
+}
+
+.price-list th, td {
+    border: 1px solid #065613;
+}
+
+.price-list-info {
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.price-list-section {
+    background-color: #e7fdeb;
+}
+
+.gallery h2 {
+    font-family: "freeland";
+    font-size: 7rem;
+    color: #065613;
+    margin-top: 0;
+    padding-top: 6rem;
+    text-align: center;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
+    row-gap: 2rem;
+}
+
+.gallery-container img {
+   width: 30%;
+   height: auto;
+   object-fit: cover;
+}
+
+.contact {
+    text-align: center;
+    background-color: #e7fdeb;
+    border-bottom: 1px solid #065613;
+}
+
+.contact h2 {
+    font-family: "freeland";
+    font-size: 7rem;
+    color: #065613;
+    margin-top: 0;
+    padding-top: 6rem;
+}
+
+.contact p {
+    line-height: 1.5;
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+}
+
+.contact span {
+    font-weight: bold;
+}
+
+.contact .contact-info {
+    padding-bottom: 1rem;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    padding: 3rem 0;
+    font-size: 1.25rem;
+}
+
+
