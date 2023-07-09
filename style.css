@@ -222,6 +222,10 @@ body {
     padding-bottom: 1rem;
 }
 
+.contact .mobile-links {
+    display: none;
+}
+
 footer {
     text-align: center;
     font-weight: bold;
@@ -260,6 +264,10 @@ footer {
     }
     .contact h2 {
         font-size: 3rem;
+    }
+    .contact .mobile-links {
+        display: block;
+        padding-bottom: 2rem;
     }
 }
 
