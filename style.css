@@ -156,9 +156,19 @@ body {
     font-size: 1.25rem;
 }
 
-.price-list th, td {
-    border: 1px solid #065613;
+.price-list tr {
+    border-radius: 50px;
+    background-color: white;
+    border: 5px;
 }
+
+.price-list th,
+.price-list td {
+    padding: 0.5rem 0;
+}
+/*.price-list th, td {
+    border: 1px solid #065613;
+}*/
 
 .price-list-info {
     padding-top: 1rem;
@@ -197,6 +207,7 @@ body {
     text-align: center;
     background-color: #e7fdeb;
     border-bottom: 1px solid #065613;
+    padding-bottom: 3rem;
 }
 
 .contact h2 {
@@ -209,9 +220,19 @@ body {
 
 .contact p {
     line-height: 1.5;
-    width: 70%;
-    margin: 0 auto;
+    /*width: 70%;
+    margin: 0 auto;*/
     padding-bottom: 3rem;
+}
+
+.contact a {
+    line-height: 1.5;
+    color: black;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    font-weight: bold;
 }
 
 .contact span {
@@ -256,11 +277,15 @@ footer {
     .what-we-offer h2 {
         font-size: 3rem;
     }
+    .price-list {
+        width: 95%;
+    }
     .gallery h2 {
         font-size: 3rem;
     }
     .gallery-container img {
         width: 95%;
+        max-height: 15rem;
     }
     .contact h2 {
         font-size: 3rem;
@@ -268,6 +293,7 @@ footer {
     .contact .mobile-links {
         display: block;
         padding-bottom: 2rem;
+        margin-top: 3rem;
     }
 }
 
