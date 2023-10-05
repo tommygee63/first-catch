@@ -154,6 +154,7 @@ body {
     width: 35%;
     margin: 0 auto;
     font-size: 1.25rem;
+    border-spacing: 1px 0.5rem;
 }
 
 .price-list tr {
@@ -166,9 +167,24 @@ body {
 .price-list td {
     padding: 0.5rem 0;
 }
-/*.price-list th, td {
-    border: 1px solid #065613;
-}*/
+
+/*Rounded edge table rows*/
+.price-list tr th:first-child {
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+.price-list tr th:last-child {
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+.price-list tr td:first-child {
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+.price-list tr td:last-child {
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
 
 .price-list-info {
     padding-top: 1rem;
